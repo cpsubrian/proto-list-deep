@@ -1,0 +1,22 @@
+{
+  "name": "proto-list-deep",
+  "version": "0.0.1",
+  "description": "Extends proto-list with a 'deepSnapshot'",
+  "main": "proto-list-deep.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpsubrian/proto-list-deep.git"
+  },
+  "author": "Brian Link",
+  "license": "MIT",
+  "dependencies": {
+    "proto-list": "~1.2.2",
+    "inherits": "~1.0.0"
+  },
+  "devDependencies": {
+    "tap": "*"
+  }
+}
