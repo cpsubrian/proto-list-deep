@@ -1,11 +1,11 @@
 proto-list-deep
 ===============
 
-An extension of isaacs' proto-list that exposes a `deepSnapshot`. This returns
-a different result than `snapshot`. Whereas `snapshot` is implicitly merging
-all keys at the top level due to the prototype chain, `deepSnapshot` first
-flattens each 'level' of the proto-list, grabs all the values, then unflattens
-the result back to its original depth.
+An extension of isaacs' (proto-list)[https://github.com/isaacs/proto-list] that
+exposes a `deepSnapshot`. This returns a different result than `snapshot`.
+Whereas `snapshot` is implicitly merging all keys at the top level due to the
+prototype chain, `deepSnapshot` first flattens each 'level' of the proto-list,
+grabs all the values, then unflattens the result back to its original depth.
 
 Proto-list-deep does not disturb any of proto-list's functionality (and passes
 all of proto-list's tests), so you can use it in place of proto-list if you
